@@ -12,3 +12,5 @@ My ASM study
 
 ## 《ARM嵌入式应用开发技术白金手册》  
 
+## ghidra, mips decompile  
+* https://github.com/NationalSecurityAgency/ghidra/releases  
