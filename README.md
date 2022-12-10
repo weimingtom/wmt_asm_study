@@ -7,12 +7,12 @@ My ASM study
 * https://cppinsights.io  
 * https://redasm.io/  
 
-## armcc  
+## armcc, LPC2138最简闪烁灯汇编, 自制  
 * search baidupan, work_arm_hello_lpc2138_v2.rar  
 
 ## 《ARM嵌入式应用开发技术白金手册》  
 
-## ghidra, mips decompile  
+## ghidra, mips decompile, arm反汇编工具    
 * https://github.com/NationalSecurityAgency/ghidra/releases  
 
 ## microdigitaled, ARM汇编书, Keil, 树莓派arm汇编,    
@@ -20,3 +20,4 @@ My ASM study
 search baidupan, arm_asm_code.zip  
 * https://nicerland.com/raspberry-pi/  
 search baidupan raspberry-pi_asm  
+* https://github.com/weimingtom/wmt_ai_study/blob/master/asm_001.md  
