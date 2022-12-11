@@ -39,7 +39,7 @@ search baidupan raspberry-pi_asm
 （2）示例代码：参考www.instructables.com/6502-6522-Minimal-Computer-With-Arduino-MEGA和它的前篇（可以把jmp后面的常量改成标号）。或者参考free6502的测试汇编  
 * 6502 & 6522 Minimal Computer (with Arduino MEGA) Part 2  
 * program1  
-···
+```
 LDA#$55
 NOP
 ROL
@@ -47,16 +47,16 @@ STA$1010
 JMP$1000
 The ROL rotates the contents of the accumulator one bit left which means the $55 now becomes $AA.
 In machine code (hex): A9 55 EA 2A 8D 10 10 4C 00 10
-···
+```
 * program2  
-···
+```
 LDA#$01
 STA$8100
 ADC#$03
 STA$8100
 JMP$1005
 In machine code (hex):  A9 01 8D 00 81 69 03 8D 00 81 4C 05 10
-···
+```
 
 
 
