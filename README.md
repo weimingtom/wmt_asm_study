@@ -72,6 +72,54 @@ search baidupan raspberry-pi_asm
 ## 51单片机（8051）的汇编方法：  
 （1）生成二进制的方法：用Keil C51 uvision2（或者keil 4），A51和L51，待考；或者用as31和sdcc（在www.pjrc.com/tech/8051），方法是as31 -l -Fbin test.asm。或者sdas8051 -l test.asm（需要改成0x表示十六进制常量，但输出二进制可能不正确）。asx8051似乎编译失败  
 （2）示例代码：stc-isp有IO的汇编示例（不过太长了）；或者找《8051 单片机P1口实验》MOV P1；或者找这个《Blinking LED using 8051》用CPL P1.0取反（只支持P1的位取反，似乎不支持整个P1字节取反）：www.circuitstoday.com/blinking-led-using-8051  
+* 51单片机资料_我的光盘.iso, 单片机资料  
+```
+MAIN: MOV	P1, #00000000B	
+     	  ACALL 	KK				
+		  MOV	 P1, #11111111B	
+		  ACALL	KK				
+		  SJMP	MAIN			
+    KK : MOV	R5, #04		
+    K1:  MOV	R6, #0FFH
+    K2:  MOV	R7, #80H
+    K3:  DJNZ 	R7, K3
+     	 DJNZ  	R6, K2
+     	 DJNZ 	R5, K1
+     	 RET			
+```
+* p1, https://www.circuitstoday.com/blinking-led-using-8051    
+```
+START: CPL P1.0
+       ACALL WAIT  
+       SJMP START
+
+WAIT:  MOV R4,#05H
+WAIT1: MOV R3,#00H
+WAIT2: MOV R2,#00H
+WAIT3: DJNZ R2,WAIT3
+        DJNZ R3,WAIT2
+        DJNZ R4,WAIT1
+        RET
+```
+* p2, https://www.circuitstoday.com/blinking-led-using-8051  
+```
+START: CPL P1.0
+       ACALL WAIT  
+       CPL P1.0
+       CPL P1.1
+       ACALL WAIT
+       CPL P1.1  
+       SJMP START
+
+WAIT:  MOV R4,#05H
+WAIT1: MOV R3,#00H
+WAIT2: MOV R2,#00H
+WAIT3: DJNZ R2,WAIT3
+        DJNZ R3,WAIT2
+        DJNZ R4,WAIT1
+        RET
+```
+
 
 ## 6502的汇编方法：  
 （1）生成二进制的方法：用cc65，方法是ca65 test.asm和ld65 -t none test.o（如果需要列表文件，可能要da65反汇编或者在ca65中生成，但可能缺少跳转地址）。或者用dasm，可能会在头部两字节添加偏移，需要自己去掉，或者生成list文件。注意cc65和dasm的伪指令可能不兼容
