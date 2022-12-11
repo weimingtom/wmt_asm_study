@@ -9,6 +9,45 @@ My ASM study
 
 ## armcc, LPC2138最简闪烁灯汇编, 自制  
 * search baidupan, work_arm_hello_lpc2138_v2.rar  
+```
+		ARM
+		AREA reset,CODE,READONLY
+		ENTRY
+start 	
+		LDR      r0,=0x00ffff00
+		LDR      r1,=0xe0028000
+		STR      r0,[r1,#8]
+		B        |L1.76|
+|L1.44|		
+		MOV      r2,#0x100
+		LDR      r0,=0xe0028000
+		STR      r2,[r0,#0xc]
+		BL       delay
+		
+		RSB      r0,r2,r2,LSL #16
+		LDR      r1,=0xe0028000
+		STR      r0,[r1,#4]
+		BL       delay
+|L1.76|		
+		B        |L1.44|	;b start
+		
+delay	PROC
+		MOV      r0,#0
+		B        |L1.12|
+|L1.8|
+		ADD      r0,r0,#1
+|L1.12|
+		LDR      r1,=0x001e8480
+		CMP      r0,r1
+		BCC      |L1.8|
+		BX       lr
+        ENDP
+
+		;import   delay2
+		;BL      delay2
+		
+		END
+```
 
 ## 《ARM嵌入式应用开发技术白金手册》  
 
