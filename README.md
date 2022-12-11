@@ -1,6 +1,15 @@
 # wmt_asm_study
 My ASM study
 
+## mips  
+* edumips64:  
+https://edumips.org  
+* winmips64:    
+http://indigo.ie/~mscott/  
+* https://github.com/kchasialis/QtMips-Di  
+* qtspim  
+https://pages.cs.wisc.edu/~larus/spim.html  
+
 ## qtspim, MIT 6.828 操作系统工程导读  
 https://zhuanlan.zhihu.com/p/368954250  
 
