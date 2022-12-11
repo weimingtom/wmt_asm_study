@@ -1,6 +1,9 @@
 # wmt_asm_study
 My ASM study
 
+## qtspim, MIT 6.828 操作系统工程导读  
+https://zhuanlan.zhihu.com/p/368954250  
+
 ## dasmfw, 68hc11?      
 https://github.com/Arakula/dasmfw  
 
