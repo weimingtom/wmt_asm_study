@@ -182,3 +182,6 @@ In machine code (hex):  A9 01 8D 00 81 69 03 8D 00 81 4C 05 10
 
 ## EASy68K  
 * http://www.easy68k.com  
+
+## GNUSim8085  
+* https://github.com/GNUSim8085/GNUSim8085  
