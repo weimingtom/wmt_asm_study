@@ -170,3 +170,10 @@ In machine code (hex):  A9 01 8D 00 81 69 03 8D 00 81 4C 05 10
 ## arm gdb arm-linux-run and qemu-arm  
 * see mips and arm asm samples in gdb source  
 * 以前提到过，如果源码编译arm目标的gdb代码，会生成一个arm-linux-run工具（具体运行的汇编示例参考gdb源码），所以gdb代码也有汇编例子。其实qemu也有一个类似的，叫用户模式qemu，就是除了qemu-system-arm，还有一个叫qemu-arm的命令，可以运行arm-linux-gnueabi-gcc -static静态生成的elf文件。原理大概是拦截最底层的控制台输出，arm的话不清楚，但mips是有专门的syscall指令用于控制台输出  
+
+## bsvc  
+* https://github.com/BSVC/bsvc  
+* for ubuntu 140432  
+* cd src; make -f Makefile.Linux; sudo make -f Makefile.Linux install  
+* bsvc (then select samples, 68000, .setup)   
+* 68kasm -l xxx.asm (see samples, 68000; don't use 68kasm ./xxx.asm)    
