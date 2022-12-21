@@ -179,6 +179,9 @@ In machine code (hex):  A9 01 8D 00 81 69 03 8D 00 81 4C 05 10
 * 68kasm -l xxx.asm (see samples, 68000; don't use 68kasm ./xxx.asm)    
 * http://nanja.net/asm/  
 * https://www.kkaneko.jp/cc/as/jikken/index.html  
+* windows:  
+* search bsvc-bin.7z  
+* https://github.com/pIlIp-d/BSVC_with_TCL  
 
 ## EASy68K  
 * http://www.easy68k.com  
