@@ -188,3 +188,5 @@ In machine code (hex):  A9 01 8D 00 81 69 03 8D 00 81 4C 05 10
 
 ## GNUSim8085  
 * https://github.com/GNUSim8085/GNUSim8085  
+
+## mips, 反编译cs3410.jar代码，带汇编器    
