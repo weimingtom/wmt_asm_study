@@ -190,3 +190,6 @@ In machine code (hex):  A9 01 8D 00 81 69 03 8D 00 81 4C 05 10
 * https://github.com/GNUSim8085/GNUSim8085  
 
 ## mips, 反编译cs3410.jar代码，带汇编器    
+* https://zhuanlan.zhihu.com/p/105777438  
+* https://www.cs.cornell.edu/courses/cs3410/2018fa/logisim/components.html  
+
