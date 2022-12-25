@@ -193,3 +193,6 @@ In machine code (hex):  A9 01 8D 00 81 69 03 8D 00 81 4C 05 10
 * https://zhuanlan.zhihu.com/p/105777438  
 * https://www.cs.cornell.edu/courses/cs3410/2018fa/logisim/components.html  
 
+## emu8080  
+* https://www.tramm.li/i8080/index.html  
+* search baidupan, emu8080_v2.rar  
