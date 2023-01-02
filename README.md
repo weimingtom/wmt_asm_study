@@ -1,7 +1,7 @@
 # wmt_asm_study
 My ASM study
 
-## Assemblers, Linkers, and the SPIM Simulator
+## mips, Assemblers, Linkers, and the SPIM Simulator
 * https://pages.cs.wisc.edu/~larus/HP_AppA.pdf  
 * https://pages.cs.wisc.edu/~larus/spim.html  
 
