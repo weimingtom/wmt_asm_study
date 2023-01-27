@@ -200,3 +200,6 @@ In machine code (hex):  A9 01 8D 00 81 69 03 8D 00 81 4C 05 10
 ## emu8080  
 * https://www.tramm.li/i8080/index.html  
 * search baidupan, emu8080_v2.rar  
+
+## 龙芯汇编语言程序设计  
+* https://www.bilibili.com/video/BV1zx411G7y3  
