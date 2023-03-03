@@ -67,7 +67,7 @@ delay	PROC
 		
 		END
 ```
-* 
+* c language version, also see work_arm_hello_lpc2138_v2.rar  
 ```
 #include <LPC213x.H>
 
