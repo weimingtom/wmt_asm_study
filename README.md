@@ -67,6 +67,37 @@ delay	PROC
 		
 		END
 ```
+* 
+```
+#include <LPC213x.H>
+
+void delay (void) {                     /* Delay function                     */
+  unsigned int cnt;
+
+  for (cnt = 0; cnt < 2000000; cnt++);
+}
+
+int main (void) {
+  unsigned int n;
+
+  IODIR0 = 0x00FFFF00;                  /* P0.8..23 defined as Outputs        */
+
+  while (1) {                           /* Loop forever                       */
+    //for (n = 0x00000100; n <= 0x00800000; n <<= 1) {
+      n = 0x00000100; //P0.8 ON
+		  /* Blink LED1 .. LED16                                                  */
+      IOCLR0 = n;                       /* Turn on LED                        */
+
+      delay();                          /* Delay                              */
+      IOSET0 = 0x00FFFF00;              /* Turn off LEDs                      */
+
+			//this code is from E:\Keil_v4\ARM\Boards\Embedded Artists\LPC2138 QSB\Blinky
+		  delay(); //added, for blink
+		  //P0.8->pin 33
+    //}
+  }
+}
+```
 
 ## 《ARM嵌入式应用开发技术白金手册》  
 
