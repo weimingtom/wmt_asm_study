@@ -234,3 +234,16 @@ In machine code (hex):  A9 01 8D 00 81 69 03 8D 00 81 4C 05 10
 
 ## 龙芯汇编语言程序设计  
 * https://www.bilibili.com/video/BV1zx411G7y3  
+
+## 使用GNU工具链进行嵌入式裸机开发  
+* https://www.cnblogs.com/thammer/p/10596429.html  
+* https://sourcery.sw.siemens.com/GNUToolchain/subscription56984  
+下载2018-q1  
+* https://www.plm.automation.siemens.com/global/en/products/embedded-software/sourcery-codebench-lite-downloads.html  
+下载Nios2 gcc  
+* https://sourcery.sw.siemens.com/GNUToolchain/subscription56984  
+* https://sourcery.sw.siemens.com/GNUToolchain/subscription42545  
+* https://sourcery.sw.siemens.com/GNUToolchain/subscription57164  
+* https://www.it1352.com/2577875.html  
+* https://www.shuzhiduo.com/A/6pdDPq4Xdw/  
+search connex qemu  
