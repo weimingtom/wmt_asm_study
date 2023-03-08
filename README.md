@@ -1,6 +1,9 @@
 # wmt_asm_study
 My ASM study
 
+## TODO  
+* arm7, pic32, avr, stc89c52  
+
 ## mips, Assemblers, Linkers, and the SPIM Simulator
 * https://pages.cs.wisc.edu/~larus/HP_AppA.pdf  
 * https://pages.cs.wisc.edu/~larus/spim.html  
