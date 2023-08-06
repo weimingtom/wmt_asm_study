@@ -250,3 +250,6 @@ In machine code (hex):  A9 01 8D 00 81 69 03 8D 00 81 4C 05 10
 * https://www.it1352.com/2577875.html  
 * https://www.shuzhiduo.com/A/6pdDPq4Xdw/  
 search connex qemu  
+
+## (TODO) 微机原理教学实验板, 8088, 8086开发板  
+* 微机原理教学实验板_8088开发板  
