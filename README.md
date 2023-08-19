@@ -256,4 +256,8 @@ search connex qemu
 
 ##  Assembly Programming and Computer Architecture for Software Engineers  
 * https://github.com/brianrhall/Assembly  
-* 汇编程序设计与计算机体系结构：软件工程师教程  
+* 汇编程序设计与计算机体系结构：软件工程师教程
+
+## [MIPS汇编语言程序设计].MIPS.Assembly.Language.Programming.(2003)  
+* MIPS.Assembly.Language.Programming.(2003)  
+
