@@ -270,3 +270,6 @@ search connex qemu
 ## C++ i8080 emulator, with TinyBasic source ASM program      
 * https://github.com/maly/arduino8080basic  
 * arduino8080basic_v1_win_success.rar  
+
+## 8080a-8085 Assembly Language Programming  
+* Leventhal-8080a-8085AssemblyLanguageProgramming  
