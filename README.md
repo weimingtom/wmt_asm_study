@@ -263,3 +263,10 @@ search connex qemu
 
 ## C# i8080 emulator  
 * https://github.com/BluestormDNA/i8080-Space-Invaders  
+
+## js i8080 emulator  
+* https://github.com/begoon/i8080-js  
+
+## C++ i8080 emulator, with TinyBasic source ASM program      
+* https://github.com/maly/arduino8080basic  
+* arduino8080basic_v1_win_success.rar  
