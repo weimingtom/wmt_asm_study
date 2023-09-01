@@ -273,3 +273,7 @@ search connex qemu
 
 ## 8080a-8085 Assembly Language Programming  
 * Leventhal-8080a-8085AssemblyLanguageProgramming  
+
+## tinyasm  
+* https://github.com/nanochess/tinyasm
+* https://github.com/pts/mininasm  
