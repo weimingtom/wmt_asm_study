@@ -254,9 +254,10 @@ search connex qemu
 ## (TODO) 微机原理教学实验板, 8088, 8086开发板  
 * 微机原理教学实验板_8088开发板  
 
-##  Assembly Programming and Computer Architecture for Software Engineers  
+## (IMP) Assembly Programming and Computer Architecture for Software Engineers  
 * https://github.com/brianrhall/Assembly  
 * 汇编程序设计与计算机体系结构：软件工程师教程
+* (TODO) X86 and I64 masm differences and gas and nasm  
 
 ## [MIPS汇编语言程序设计].MIPS.Assembly.Language.Programming.(2003)  
 * MIPS.Assembly.Language.Programming.(2003)  
