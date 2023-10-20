@@ -285,3 +285,7 @@ search connex qemu
 ## (TODO) Z80汇编语言程序设计  
 csdn download  
 TODO  
+
+## NES-Hello-World, 6502  
+* https://github.com/pedroafabri/NES-Hello-World  
+
