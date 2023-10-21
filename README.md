@@ -289,3 +289,6 @@ TODO
 ## NES-Hello-World, 6502  
 * https://github.com/pedroafabri/NES-Hello-World  
 
+## bootBasic, bootOS  
+https://blog.csdn.net/weixin_42169971/article/details/116949435  
+https://github.com/nanochess/bootOS  
