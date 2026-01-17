@@ -1,6 +1,6 @@
 # wmt_asm_study
-My ASM study
-more see https://github.com/weimingtom/emu8086_playground  
+My ASM study  
+More see https://github.com/weimingtom/emu8086_playground    
 
 ## TODO  
 * arm7, pic32, avr, stc89c52  
