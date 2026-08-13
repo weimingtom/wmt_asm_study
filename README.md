@@ -294,3 +294,9 @@ TODO
 ## bootBasic, bootOS  
 https://blog.csdn.net/weixin_42169971/article/details/116949435  
 https://github.com/nanochess/bootOS  
+
+## VisUAL has been developed as a cross-platform tool to make learning ARM Assembly language easier.  
+* https://salmanarif.bitbucket.io/visual/index.html
+
+## VisUAL2
+* https://github.com/tomcl/V2releases
